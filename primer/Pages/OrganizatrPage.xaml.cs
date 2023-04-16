@@ -33,5 +33,29 @@ namespace primer.Pages
 
         }
         public Polzovateli Info { get; set; }
+
+
+        /*
+         * Add
+         *  St = new Students();
+            St.Surname = Surname.Text;
+            St.Patronymic = Patronymic.Text;
+            St.Name = Name.Text;
+            St.Groups = Group.SelectedItem as Groups;
+            Core.BD.Students.Add(St);
+            MessageBox.Show("Save complite");
+            Core.BD.SaveChanges();
+         * 
+         * save
+         * Core.BD.SaveChanges();
+         * 
+         * delete
+         *  var item = StudentDataGrid.SelectedItem as Students;
+            Core.BD.Students.Remove(item);
+            Core.BD.SaveChanges();
+         * 
+        */
+
+
     }
 }
