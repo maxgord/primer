@@ -52,7 +52,7 @@ namespace primer.Pages
                     this.NavigationService.Navigate(new Pages.ModersPage());
                         break;
                     case 3:
-                    this.NavigationService.Navigate(new Pages.OrganizatrPage());
+                    this.NavigationService.Navigate(new Pages.OrganizatrPage(UserVr));
                         break;
                     case 4:
                     this.NavigationService.Navigate(new Pages.JuriPage());
